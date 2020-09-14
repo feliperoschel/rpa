@@ -13,6 +13,7 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
 
         console.log(await firstResult.getAttribute('textContent'));
     }
+    
     finally{
         // driver.quit();
     }
